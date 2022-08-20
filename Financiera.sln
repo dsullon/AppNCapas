@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financiera.Logic", "Financi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financiera.AppWin", "Financiera.AppWin\Financiera.AppWin.csproj", "{2832A26B-8C73-4E65-BD22-2C814FF7D709}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Logic", "Business Logic", "{D486352F-1BF0-4B49-8C19-6CB6C369EBF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Layer", "Data Layer", "{D968603D-6AAA-49B8-B4C4-86387391175E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{A6B46B61-D464-492E-81B5-6E23195CF8B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +42,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42CC313C-CBE0-4FAD-9F9C-0D68975092A6} = {D486352F-1BF0-4B49-8C19-6CB6C369EBF4}
+		{F49264DA-9A9A-436F-855A-BF9F27DD8218} = {D968603D-6AAA-49B8-B4C4-86387391175E}
+		{57194808-C413-4FA5-9CD4-1E855754E437} = {D486352F-1BF0-4B49-8C19-6CB6C369EBF4}
+		{2832A26B-8C73-4E65-BD22-2C814FF7D709} = {A6B46B61-D464-492E-81B5-6E23195CF8B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D48BDAE3-2144-4854-940E-49C4C37DD81C}
