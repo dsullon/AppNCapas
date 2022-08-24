@@ -21,5 +21,11 @@ namespace Financiera.Data
             return tipoCliente;
         }
 
+        public bool Insertar()
+        {
+            return true;
+        }
+
+
     }
 }

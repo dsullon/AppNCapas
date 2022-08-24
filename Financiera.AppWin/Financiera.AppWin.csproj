@@ -8,4 +8,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Financiera.Dominio\Financiera.Dominio.csproj" />
+    <ProjectReference Include="..\Financiera.Logic\Financiera.Logic.csproj" />
+  </ItemGroup>
+
 </Project>
